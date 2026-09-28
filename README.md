@@ -37,4 +37,4 @@ This project demonstrates:
    cd simple-tcp-port-scanner
 
 ## Author
-Md. Raihan Hasan Rana - Cybersecurity Enthusi  
+Md. Raihan Hasan Rana - Cybersecurity Enthusiast  
