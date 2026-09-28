@@ -20,8 +20,8 @@ def scan_port(port):
             print(f"[+] Port {port:<5} : OPEN")
             
         s.close()
-    except Exception:      # <-- try ar except eki sojasoji line-e
-        pass               # <-- except-er vitorer line 4 spaces dane
+    except Exception:      
+        pass               
 
 with ThreadPoolExecutor(max_workers=50) as executor:
     list(executor.map(scan_port, range(start_port, end_port + 1)))
